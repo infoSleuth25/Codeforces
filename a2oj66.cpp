@@ -15,7 +15,21 @@ int main (){
 		}
 	}
 	if(flag){
-		cout << k -1 << endl;
+		int ans = 0;
+		bool flag2 = true;
+		for(int i=k-2;i>=0;i--){
+			if(a[i] != a[k-1]){
+				ans = i;
+				flag2 = false;
+				break;
+			}
+		}
+		if(flag2){
+			cout << 0 << endl;
+		}
+		else{
+			cout << ans + 1 << endl;
+		}
 	}
 	else{
 		cout << -1 << endl;

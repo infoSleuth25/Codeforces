@@ -17,7 +17,7 @@ int main() {
 
     // Sorted copy
     vector<int> b = a;
-    sort(b.begin(), b.end());
+    sort(b.begin(), b.end()); 
 
     // Prefix sum for sorted array
     vector<long long> prefixB(n + 1, 0);

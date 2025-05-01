@@ -10,7 +10,7 @@ int main (){
 	if(n == 1){
 		cout << "NO" << endl;
 	}
-	else{
+	else{  
 		int count100 = 0;
 		int count200 = 0;
 		for(int i=0;i<n;i++){
